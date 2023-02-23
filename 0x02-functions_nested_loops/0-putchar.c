@@ -1,10 +1,9 @@
-
 #include "main.h"
 /**
- *  * main - A program that print _putchar
- *   *
- *    * Return: Always 0
- *     */
+ * main - A program that print _putchar
+ *
+ * Return: Always 0
+ */
 
 int main(void)
 {
@@ -14,8 +13,8 @@ int main(void)
 	while (ins[i] != '\0')
 	{
 		_putchar(ins[i]);
-							i++;
-							}
+		i++;
+	}
 	_putchar('\n');
-		return (0);
+	return (0);
 }
