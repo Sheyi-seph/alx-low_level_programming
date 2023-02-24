@@ -1,20 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - main func
+ * main - Entry point
  *
- * Return: always 0
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char i;
-	char b;
+	char low;
 
-	for (i = 'a' ; i <= 'z' ; i++)
-		putchar(i);
-	for (b = 'A' ; b <= 'Z' ; b++)
-		putchar(b);
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
 	putchar('\n');
+
 	return (0);
 }

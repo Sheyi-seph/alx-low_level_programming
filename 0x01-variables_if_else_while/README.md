@@ -1,1 +1,1 @@
-statment starts
+varibles if else and while
